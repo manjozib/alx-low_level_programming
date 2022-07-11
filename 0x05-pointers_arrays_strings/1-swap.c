@@ -1,16 +1,16 @@
 #include "main.h"
 /**
-*swap - swap 2 variables a and b
+*swap_int - swap 2 variables a and b
 *@a: a pointer which will take value of b
 *@b: a pointer which will take value of a
-*@temp: temporary variable
+*@t: temporary variable
 *Returns : nothin
 */
 
 void swap_int(int *a, int *b)
 {
-int temp;
-temp = *a;
+int t;
+t = *a;
 *a =  *b;
-*b = temp;
+*b = t;
 }
